@@ -1,4 +1,11 @@
-# Angularoauth
+# Projet OAuth POC avec Google Sign-In et Firebase (Angular CLI 17.1.1)
+
+Ce projet Angular a été créé dans le but de réaliser une preuve de concept (POC) pour l'implémentation d'OAuth avec Google Sign-In, intégré avec Firebase.
+L'objectif principal est d'établir une authentification sécurisée basée sur les jetons JWT et de pouvoir faire des requêtes sur une API sécurisé par un JWT (là aussi ça fonctionne avec .
+
+### Fonctionnement
+
+Ce projet est conçu pour fonctionner avec ce projet en FRONT-END (https://github.com/arthur-lemaire/angularoauth). Mais fonctionne aussi en standolone tant qu'un JWT conforme est donné.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
