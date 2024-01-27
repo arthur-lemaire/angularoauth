@@ -6,7 +6,7 @@ L'objectif principal est d'établir une authentification sécurisée basée sur 
 
 ### Fonctionnement
 
-Ce projet est conçu pour fonctionner avec ce projet en BACK-END ((https://github.com/arthur-lemaire/OauthAspNetCore)).
+Ce projet est conçu pour fonctionner avec ce projet en BACK-END (https://github.com/arthur-lemaire/OauthAspNetCore).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
