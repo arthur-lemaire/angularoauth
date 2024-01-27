@@ -30,4 +30,8 @@ export class AuthService {
       localStorage.setItem('userToken', token);
     });
   }
+
+  getToken(): string | null {
+    return localStorage.getItem('userToken');
+  }
 }

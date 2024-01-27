@@ -1,2 +1,9 @@
 <button (click)="signInWithGoogle()">Sign in with Google</button>
+<br>
 <button (click)="signOut()">Sign out</button>
+<br>
+<button (click)="getDataProtected()">Get Data Protected</button>
+<br>
+<button (click)="getDataPublic()">Get Data Public</button><br>
+<span>{{authService.getToken()}}</span>
+<br>

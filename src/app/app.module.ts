@@ -9,6 +9,8 @@ import { GoogleAuthProvider } from '@angular/fire/auth';
 import { environment } from './environment';
 import { AppComponent } from './app.component';
 import { AuthService } from '../service/auth.service';
+import { ApiService } from '../service/api.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,8 +18,9 @@ import { AuthService } from '../service/auth.service';
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
+    HttpClientModule,
   ],
-  providers: [AuthService,AngularFireAuth, GoogleAuthProvider],
+  providers: [AuthService,AngularFireAuth, GoogleAuthProvider, ApiService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
