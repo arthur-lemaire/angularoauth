@@ -5,7 +5,7 @@ L'objectif principal est d'établir une authentification sécurisée basée sur 
 
 ### Fonctionnement
 
-Ce projet est conçu pour fonctionner avec ce projet en FRONT-END ([https://github.com/arthur-lemaire/angularoauth](https://github.com/arthur-lemaire/OauthAspNetCore)). Mais fonctionne aussi en standolone tant qu'un JWT conforme est donné.
+Ce projet est conçu pour fonctionner avec ce projet en BACK-END ([https://github.com/arthur-lemaire/angularoauth](https://github.com/arthur-lemaire/OauthAspNetCore)). Mais fonctionne aussi en standolone tant qu'un JWT conforme est donné.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
