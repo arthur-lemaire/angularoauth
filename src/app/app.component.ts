@@ -15,16 +15,8 @@ import { ApiService } from '../service/api.service';
 export class AppComponent implements OnInit  {
   title = 'angularoauth';
 
-  constructor(protected authService: AuthService, private apiService : ApiService) {}
+  constructor(protected apiService : ApiService, protected authService: AuthService) {}
   ngOnInit(): void {
-  }
-
-  signInWithGoogle() {
-    this.authService.signInWithGoogle();
-  }
-
-  signOut() {
-    this.authService.signOut();
   }
 
   getDataProtected(){

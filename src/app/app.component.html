@@ -1,9 +1,14 @@
-<button (click)="signInWithGoogle()">Sign in with Google</button>
+<button (click)="authService.signInWithGoogle()">Sign in with Google</button>
 <br>
-<button (click)="signOut()">Sign out</button>
+<button (click)="authService.refreshToken()">Refresh Token</button>
+<br>
+<button (click)="authService.signOut()">Sign out</button>
+<br>
 <br>
 <button (click)="getDataProtected()">Get Data Protected</button>
 <br>
 <button (click)="getDataPublic()">Get Data Public</button><br>
+<span>Est Authentifier : {{authService.isAuthenticated() | async}}</span>
+<br>
 <span>{{authService.getToken()}}</span>
 <br>
